@@ -4,27 +4,32 @@
     "properties": {
       "text": "Welcome to JsonApp",
       "font_style": "H4",
-      "halign": "center",
-      "id": "welcome_label"
+      "halign": "center"
     }
   },
   {
     "widget": "MDRaisedButton",
     "properties": {
-      "text": "Click me",
-      "on_press": "print_button_clicked"
+      "text": "Click me"
     },
-    "args": ["You clicked the button"]
+    "action": {
+      "type": "on_press",
+      "function": "print_button_clicked",
+      "args": ["You clicked the button"]
+    }
   },
   {
     "widget": "MDFillRoundFlatButton",
     "properties": {
-      "text": "Change label text",
-      "on_press": "change_label_text"
+      "text": "Change label text"
     },
-    "kwargs": {
-      "label": "welcome_label",
-      "text": "Hello, JsonApp"
+    "action": {
+      "type": "on_press",
+      "function": "change_label_text",
+      "kwargs": {
+        "label_id": "welcome_label",
+        "new_text": "Hello, JsonApp"
+      }
     }
   }
 ]
