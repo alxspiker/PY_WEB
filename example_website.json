@@ -11,7 +11,7 @@
     "widget": "Button",
     "properties": {
       "text": "Click me",
-      "on_release": "print_button_clicked"
+      "on_release": print_button_clicked
     }
   }
 ]
