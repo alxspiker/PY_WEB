@@ -1,17 +1,32 @@
+# example.json
+
 [
   {
     "widget": "Label",
     "properties": {
       "text": "Welcome to JsonApp",
       "font_size": 24,
-      "color": [1, 1, 1, 1]
+      "color": [1, 1, 1, 1],
+      "id": "welcome_label"
     }
   },
   {
     "widget": "Button",
     "properties": {
       "text": "Click me",
-      "on_release": print_button_clicked
+      "on_release": "print_button_clicked"
+    },
+    "args": ["You clicked the button"]
+  },
+  {
+    "widget": "Button",
+    "properties": {
+      "text": "Change label text",
+      "on_release": "change_label_text"
+    },
+    "kwargs": {
+      "label": "welcome_label",
+      "text": "Hello, JsonApp"
     }
   }
 ]
