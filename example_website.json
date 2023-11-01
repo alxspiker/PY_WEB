@@ -1,15 +1,15 @@
 [
   {
-    "widget": "Label",
+    "widget": "MDLabel",
     "properties": {
       "text": "Welcome to JsonApp",
-      "font_size": 24,
-      "color": [1, 1, 1, 1],
+      "font_style": "H4",
+      "halign": "center",
       "id": "welcome_label"
     }
   },
   {
-    "widget": "Button",
+    "widget": "MDRaisedButton",
     "properties": {
       "text": "Click me",
       "on_release": "print_button_clicked"
@@ -17,7 +17,7 @@
     "args": ["You clicked the button"]
   },
   {
-    "widget": "Button",
+    "widget": "MDFillRoundFlatButton",
     "properties": {
       "text": "Change label text",
       "on_release": "change_label_text"
