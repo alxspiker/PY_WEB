@@ -1,0 +1,16 @@
+[
+    {
+        "widget": "Label",
+        "properties": {
+            "text": "Hello, World!",
+            "halign": "center"
+        }
+    },
+    {
+        "widget": "Button",
+        "properties": {
+            "text": "Click me!",
+            "on_release": "print('Button clicked')"
+        }
+    }
+]
