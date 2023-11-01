@@ -12,7 +12,7 @@
     "widget": "MDRaisedButton",
     "properties": {
       "text": "Click me",
-      "on_release": "print_button_clicked"
+      "on_press": "print_button_clicked"
     },
     "args": ["You clicked the button"]
   },
@@ -20,7 +20,7 @@
     "widget": "MDFillRoundFlatButton",
     "properties": {
       "text": "Change label text",
-      "on_release": "change_label_text"
+      "on_press": "change_label_text"
     },
     "kwargs": {
       "label": "welcome_label",
