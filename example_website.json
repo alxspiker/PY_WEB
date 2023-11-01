@@ -1,16 +1,17 @@
 [
-    {
-        "widget": "Label",
-        "properties": {
-            "text": "Hello, World!",
-            "halign": "center"
-        }
-    },
-    {
-        "widget": "Button",
-        "properties": {
-            "text": "Click me!",
-            "on_release": "print('Button clicked')"
-        }
+  {
+    "widget": "Label",
+    "properties": {
+      "text": "Welcome to JsonApp",
+      "font_size": 24,
+      "color": [1, 1, 1, 1]
     }
+  },
+  {
+    "widget": "Button",
+    "properties": {
+      "text": "Click me",
+      "on_release": "print_button_clicked"
+    }
+  }
 ]
