@@ -2,7 +2,7 @@
   {
     "widget": "MDLabel",
     "properties": {
-      "id": welcome_label,
+      "id": "welcome_label",
       "text": "Welcome to JsonApp",
       "font_style": "H4",
       "halign": "center"
